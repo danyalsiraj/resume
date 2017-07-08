@@ -1,6 +1,5 @@
 body {
   background-color: white;
-  font-family: 'Gudea', sans-serif;
 }
 
 .mainLine {
@@ -19,9 +18,11 @@ body {
 }
 
 .heading{
-  font-size: 12pt;
+  font-size: 15pt;
   text-transform: uppercase;
   font-family: "Times New Roman", Times, serif;
+  margin-bottom: -2%;
+
 
 }
 
@@ -31,6 +32,8 @@ body {
   font-size: 1.4em;
   letter-spacing: 3px;
   text-transform: uppercase;
+  font-family: 'Gudea', sans-serif;
+
 }
 
 .contact-info {
@@ -44,8 +47,50 @@ body {
   position: absolute;
   top: 8px;
   right: 16px;
+  font-family: 'Gudea', sans-serif;
+
 }
 
+#resume li{
+    margin-top: -1%;
+    margin-bottom: 1%;
+    text-indent: 1.1em;
+    list-style-type: square;
+}
+.educationDate {
+    margin-top: -12.3%;
+    padding-top: 0;
+    font-size: 110%;
+    float: right;
+    text-align: right;
+}
+.workDate{
+    margin-top: -7%;
+    padding-top: 0;
+    font-size: 110%;
+    float: right;
+    text-align: right;
+
+}
+
+.jobTitle{
+  margin-bottom: -0.7em;
+}
+
+
+style.scss:18
+*
+.about {
+  margin-top: 1%;
+  margin-bottom: 2%;
+  text-align: justify;
+}
+
+.education{
+  margin-top: 1%;
+  margin-bottom: -1.5%;
+  font-weight: bold;
+}
 .links-container {
   color: #808284;
   display: inline-block;
@@ -53,7 +98,8 @@ body {
   letter-spacing: 1px;
   line-height: .4em;
   margin-bottom: 2%;
-  
+  font-family: 'Gudea', sans-serif;
+
 
 }
 
