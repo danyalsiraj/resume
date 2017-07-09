@@ -37,7 +37,6 @@ body {
   font-family: 'Gudea', sans-serif;
 
 }
-@media (min-width: 565px){
 .contact-info {
   color: #808284;
   display: inline-block;
@@ -51,23 +50,9 @@ body {
   right: 16px;
   font-family: 'Gudea', sans-serif;
 
-}}
+}
 
-@media (max-width: 564px){
-.contact-info {
-  color: #808284;
-  display: inline-block;
-  font-size: 1em;
-  letter-spacing: 1px;
-  line-height: .1em;
-  #margin-top: 1.1em;
-  margin-bottom: 2%;
-  #position: absolute;
-  #top: 8px;
-  #right: 16px;
-  font-family: 'Gudea', sans-serif;
 
-}}
 
 #resume li{
     margin-top: -1%;
