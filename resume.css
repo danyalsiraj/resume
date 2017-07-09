@@ -57,6 +57,8 @@ body {
     text-indent: 1.1em;
     list-style-type: square;
 }
+
+
 .educationDate {
     margin-top: -12.3%;
     padding-top: 0;
@@ -77,6 +79,17 @@ body {
   margin-bottom: -0.7em;
 }
 
+.column_resume{
+  margin-top: -10.8%;
+  padding-top: 0;
+  #float: right;
+  padding-left: 11.9cm;
+}
+.column_quad{
+  margin-top: -12.3%;
+  padding-top: 0;
+  float: right;
+}
 
 style.scss:18
 *
