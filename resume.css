@@ -1,7 +1,12 @@
 body {
   background-color: white;
 }
-
+small {
+    font-size: smaller;
+}
+.download {
+    float: left;
+}
 .mainLine {
     border: 2px;
     height: 2px;
